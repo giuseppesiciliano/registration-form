@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/bg-mountains.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 400px;
+    border-radius: 20px;
+    backdrop-filter: blur(14px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    padding: 30px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #3b4554cc;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    background-color: #3b4554cc;
+    border: 0;
+    display: block;
+    margin: 20px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 800;
+}
+
